@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--星期的颜色值-->
+    <color name="calendar_text_week">#5E5E5E</color>
+    <!--日历Item的阳历的颜色值-->
+    <color name="calendar_text_solar">#282828</color>
+    <!--线-->
+    <color name="calendar_line">#CCCCCC</color>
+</resources>

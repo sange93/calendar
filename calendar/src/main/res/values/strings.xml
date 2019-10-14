@@ -1,0 +1,11 @@
+<resources>
+    <string name="calendar_week_sunday">日</string>
+    <string name="calendar_week_monday">一</string>
+    <string name="calendar_week_tuesday">二</string>
+    <string name="calendar_week_wednesday">三</string>
+    <string name="calendar_week_thursday">四</string>
+    <string name="calendar_week_friday">五</string>
+    <string name="calendar_week_saturday">六</string>
+    <string name="calendar_not_before_today">选择的日期必须大于今天</string>
+    <string name="calendar_null">--</string>
+</resources>

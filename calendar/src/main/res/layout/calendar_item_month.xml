@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/v_month_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/calendar_line" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_month_title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:gravity="center"
+        android:text="@string/calendar_null"
+        android:textStyle="bold"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
