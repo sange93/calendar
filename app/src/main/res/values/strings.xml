@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Calendar</string>
+
+    <string name="tip_choose_ban_date">%s日不可预约，请重新选择</string>
+    <string name="tip_please_choose_time">请选择时间</string>
+    <string name="format_result">结果：%s — %s 共 %d 天</string>
 </resources>
