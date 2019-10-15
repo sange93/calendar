@@ -1,15 +1,31 @@
 # calendar
 一个垂直方向的日历选择控件，用于酒店APP入住时间选择。(Kotlin）
 
+[![](https://jitpack.io/v/sange93/calendar.svg)](https://jitpack.io/#sange93/calendar)
+
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 下载[**DEMO**](https://github.com/sange93/calendar/releases) 体检效果
 
 ## 使用说明
 ### 1、引入
-- 方式一：JCenter 引入（推荐）
+- 方式一：gradle 引入（推荐）
+
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
 ``` gradle
-implementation ''
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+``` gradle
+	dependencies {
+	        implementation 'com.github.sange93:calendar:Tag'
+	}
 ```
 - 方式二：导入aar包到项目lib下
 下载 [aar](https://github.com/sange93/calendar/blob/master/file/calendar.aar)
