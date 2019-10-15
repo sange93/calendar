@@ -3,7 +3,7 @@
 
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-下载[**DEMO**](https://github.com/sange93/calendar/blob/master/file/app-demo.apk) 体检效果
+下载[**DEMO**](https://github.com/sange93/calendar/releases) 体检效果
 
 ## 使用说明
 ### 1、引入
