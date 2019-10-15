@@ -3,7 +3,7 @@
 
 [![Apache 2.0 License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
-下载[**DEMO**](https://github.com/sange93/calendar/tree/master/file/app-demo.apk)apk 体检效果
+下载[**DEMO**](https://github.com/sange93/calendar/blob/master/file/app-demo.apk) 体检效果
 
 ## 使用说明
 ### 1、引入
@@ -12,13 +12,13 @@
 implementation ''
 ```
 - 方式二：导入aar包到项目lib下
-下载 [aar](https://github.com/sange93/calendar/tree/master/file/calendar.aar)
+下载 [aar](https://github.com/sange93/calendar/blob/master/file/calendar.aar)
 ### 两种功能场景
 - 场景一：连续的日期选择
 
-![连续的日期选择](https://github.com/sange93/calendar/tree/master/file/video_successive.gif)
+![连续的日期选择](https://github.com/sange93/calendar/blob/master/file/video_successive.gif)
 
-示例代码 [SuccessiveTimeActivity.kt](https://github.com/sange93/calendar/tree/master/app/src/main/java/com/example/mycalendar/SuccessiveTimeActivity.kt)
+示例代码 [SuccessiveTimeActivity.kt](https://github.com/sange93/calendar/blob/master/app/src/main/java/com/example/mycalendar/SuccessiveTimeActivity.kt)
 ```kotlin
 /**
      * 初始化日历
@@ -76,9 +76,9 @@ implementation ''
 
 - 场景二：非连续的日期选择
 
-![连续的日期选择](https://github.com/sange93/calendar/tree/master/file/video_discontinuous.gif)
+![非连续的日期选择](https://github.com/sange93/calendar/blob/master/file/video_discontinuous.gif)
 
-示例代码 [DiscontinuousTimeActivity.kt](https://github.com/sange93/calendar/tree/master/app/src/main/java/com/example/mycalendar/DiscontinuousTimeActivity.kt)
+示例代码 [DiscontinuousTimeActivity.kt](https://github.com/sange93/calendar/blob/master/app/src/main/java/com/example/mycalendar/DiscontinuousTimeActivity.kt)
 ```kotlin
 /**
      * 初始化日历
