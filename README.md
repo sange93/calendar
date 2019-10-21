@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 ``` gradle
 	dependencies {
-	        implementation 'com.github.sange93:calendar:Tag'
+	        implementation 'com.github.sange93:calendar:1.0'
 	}
 ```
 - 方式二：导入aar包到项目lib下
