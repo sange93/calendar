@@ -69,7 +69,7 @@ class SuccessiveTimeActivity : AppCompatActivity() {
                 .build()
         )
         // 事件日期集合
-        val mEventDates = arrayListOf<CalendarEventModel>()
+        mBanDateList.add("20191228")// 设置某天不可选
         //设置日历相关事件
         for (banDate in mBanDateList) {
             val eventModel = CalendarEventModel()
@@ -91,10 +91,8 @@ class SuccessiveTimeActivity : AppCompatActivity() {
     private fun onChooseDate(startDate: Int, endDate: Int) {
         mErrorMsg = ""
         for (eventDate in mEventDates) {
-            val eventTime = mSdf.format(eventDate.eventDate).toInt()
-            if (eventTime in startDate..endDate) {
-                mErrorMsg =
-                    getString(R.string.tip_choose_ban_date, mSdf.format(eventDate.eventDate))
+            if (eventDate.eventDate in startDate..endDate) {
+                mErrorMsg = getString(R.string.tip_choose_ban_date, eventDate.eventDate.toString())
                 showToast(mErrorMsg)
                 return
             }
